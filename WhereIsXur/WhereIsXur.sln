@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereIsXur", "WhereIsXur\WhereIsXur.csproj", "{DDB76F77-31EA-4988-86CB-DB46DC60EAE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB76F77-31EA-4988-86CB-DB46DC60EAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB76F77-31EA-4988-86CB-DB46DC60EAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB76F77-31EA-4988-86CB-DB46DC60EAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB76F77-31EA-4988-86CB-DB46DC60EAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE49D213-64EB-42CA-8881-2222E883B99B}
+	EndGlobalSection
+EndGlobal

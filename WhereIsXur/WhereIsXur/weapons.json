@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+  <weapon>
+	 <classe>Mitraillette légère</classe>
+	 <effect>"Chevaucher le taureau": Augmente la vitesse de tir et le recul lorsque la gâchette est enfoncée. Tuer avec cette arme recharge une partie du chargeur.</effect>
+	 <image>../</image>
+	 <name>L'Airelle</name>
+	 <type>cinétique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil automatique</classe>
+	 <effect>"Jour de paie": Possède un chargeur plus grand. Augmente la précision lors des tirs au jugé.</effect>
+	 <image>../</image>
+	 <name>Business tranquille</name>
+	 <type>cinétique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil automatique</classe>
+	 <effect>"Lumière Volatile": Les balles tirées pas cette arme n'a pas de perte de dégats par distance, traverse les cibles et rebondient sur les surfaces dures. Les dégats augmentent si les balles ont ricoché.</effect>
+	 <image>../</image>
+	 <name>Lumière Dure</name>
+	 <type>néant</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil automatique</classe>
+	 <effect>"Héritage SUROS": Les balles de la partie basse du chargeur produisent plus de dégats et on une chance d'être rendue en tuant</effect>
+	 <image>../</image>
+	 <name>Régime SUROS</name>
+	 <type>cinétique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil à fusion</classe>
+	 <effect>"Momentum Conservé": Les touches non léthales des projectiles de cette arme la chargent plus vite jusqu'à la mort d'une cible</effect>
+	 <image>../</image>
+	 <name>Sans Pitié</name>
+	 <type>solaire</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil à fusion</classe>
+	 <effect>"Sursis non Prévu": Les projectiles s'attachent et détonne dans une explosion de néant (retardée).</effect>
+	 <image>../</image>
+	 <name>Telesto</name>
+	 <type>néant</type>
+  </weapon>
+  <weapon>
+	 <classe>Lance-grenade</classe>
+	 <effect>"Gratification Retardée": Les grenades rebondissent sur les surfaces. Maintenez la gâchette pour tirer en continue et lâchez pour détonner.</effect>
+	 <image>../</image>
+	 <name>Lion combattant</name>
+	 <type>néant</type>
+  </weapon>
+  <weapon>
+	 <classe>Lance-grenade</classe>
+	 <effect>"Creusement": Maintenir la gâchette pour tirer en continue. Relacher pour détonner toutes les grenades d'un coup. Les grenades s'attachent aux surfaces et mettent les cibles en feu.</effect>
+	 <image>../</image>
+	 <name>Le Prospecteur</name>
+	 <type>éléctrique</type>
+  </weapon>
+  <weapon>
+	 <classe>Lance-grenade</classe>
+	 <effect>"Grenades Robot/insectoides": Les grenades sont de petits insectes qui poursuivent les cibles et explosent à leurs pieds</effect>
+	 <image>../</image>
+	 <name>La Colonie</name>
+	 <type>néant</type>
+  </weapon>
+  <weapon>
+	 <classe>Revolver</classe>
+	 <effect>"Arme Bannie": Cette arme tire une rafale de trois coups.</effect>
+	 <image>../</image>
+	 <name>Pourpre</name>
+	 <type>cinétique</type>
+  </weapon>
+  <weapon>
+	 <classe>Revolver</classe>
+	 <effect>"Coup de Soleil": Cette arme tire des balles explosives et marque les cibles touchées.</effect>
+	 <image>../</image>
+	 <name>Tir Solaire</name>
+	 <type>solaire</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil rafale</classe>
+	 <effect>"Vérité Singlante": Tire une rafale de cinq balles. Si un allié proche est tué, le porteur reçoie un bonus de régénération et court plus vite</effect>
+	 <image>../</image>
+	 <name>L'Aile de la Vigilance</name>
+	 <type>cinétique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil rafale</classe>
+	 <effect>"Trou Noir": Le second tir d'une rafale créer un trou noir, faisant d'immenses dégats</effect>
+	 <image>../</image>
+	 <name>Lance Gravitationnelle</name>
+	 <type>néant</type>
+  </weapon>
+  <weapon>
+	 <classe>Lance roquettes</classe>
+	 <effect>"Le Scientifique Fou": Cette arme lance une volée de roquette.</effect>
+	 <image>../</image>
+	 <name>La Bobine de Falaise</name>
+	 <type>éléctrique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil de précision</classe>
+	 <effect>"Le Destin de tous les Fous": Enchaînez les coups au corps pour gagner un bonus de dégats sur le prochain tir à la tête et cela redonne les munitions</effect>
+	 <image>../</image>
+	 <name>Le Lapin de Jade</name>
+	 <type>cinétique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil de précision</classe>
+	 <effect>"Le Fusil Limace": Sans viser, cette arme lance des mini grenades, alors qu'en visant les balles sont précises et font des gros dégats</effect>
+	 <image>../</image>
+	 <name>Le Serment d'Icar</name>
+	 <type>solaire</type>
+  </weapon>
+  <weapon>
+	 <classe>Pompe</classe>
+	 <effect>"Force Répulsive": Emet un forte impulsion qui repousse les énnemis, supprime leurs abilités et les rends vulnérable au néant</effect>
+	 <image>../</image>
+	 <name>Le Canon Tracteur</name>
+	 <type>néant</type>
+  </weapon>
+  <weapon>
+	 <classe>Sniper</classe>
+	 <effect>"Assistant Personnel": Give information on the aimed targets</effect>
+	 <image>../</image>
+	 <name>A.D.R.I.C</name>
+	 <type>éléctrique</type>
+  </weapon>
+  <weapon>
+	 <classe>Mitraillette légère</classe>
+	 <effect>"Conducteur éléctrique": Quand le porteur reçoit des dégats éléctriques, cette arme devient plus puissante et résiste aux prochains dégats de même type, tout en conduisant l'éléctricité entre des cibles proches</effect>
+	 <image>../</image>
+	 <name>Le Casse-cou</name>
+	 <type>éléctrique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil traceur</classe>
+	 <effect>"Fusion à Froid": Cette arme tire un rayon froid</effect>
+	 <image>../</image>
+	 <name>Coeur de Pierre</name>
+	 <type>éléctrique</type>
+  </weapon>
+  <weapon>
+	 <classe>Fusil traceur</classe>
+	 <effect>"L'Enfer Prismatique": Tire un rayon solaire qui génère un champs solaire de destruction à mesure que le porteur tire</effect>
+	 <image>../</image>
+	 <name>Lentille de Prometheus</name>
+	 <type>solaire</type>
+  </weapon>
+</weapons>

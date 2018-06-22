@@ -1,0 +1,18 @@
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\bin\Debug\netstandard2.0\WhereIsXur.deps.json
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\bin\Debug\netstandard2.0\WhereIsXur.dll
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\bin\Debug\netstandard2.0\WhereIsXur.pdb
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.csprojAssemblyReference.cache
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.csproj.CoreCompileInputs.cache
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.AssemblyInfoInputs.cache
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.AssemblyInfo.cs
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.dll
+C:\Users\louis rodde\source\repos\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.pdb
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\bin\Debug\netstandard2.0\WhereIsXur.deps.json
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\bin\Debug\netstandard2.0\WhereIsXur.dll
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\bin\Debug\netstandard2.0\WhereIsXur.pdb
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.csprojAssemblyReference.cache
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.csproj.CoreCompileInputs.cache
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.AssemblyInfoInputs.cache
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.AssemblyInfo.cs
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.dll
+C:\travail\Xamarin\WhereIsXur\WhereIsXur\obj\Debug\netstandard2.0\WhereIsXur.pdb

@@ -41,6 +41,19 @@ namespace WhereIsXur
                 Console.WriteLine(item.Classe);
             }
             
+            
+
+            var json = JsonValue.Parse(result);
+            var data = json["weapons"];
+            
+            String[] res;
+            foreach (var dataItem in data)
+            {
+                string myValue = dataItem["name"]; 
+                res.Append(myValue);
+            })
+
+            
             return null;
         }
     }

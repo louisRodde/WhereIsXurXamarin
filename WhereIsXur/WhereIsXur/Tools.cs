@@ -8,53 +8,51 @@ namespace WhereIsXur
 {
     public class Tools
     {
-        public static String GetWeapons()
+        public static void GetWeapons()
         {
-            List<Weapon> weapons;
+            //List<Weapon> weapons;
 
-            String[] lines = File.ReadAllLines(@"C:/travail/Xamarin/WhereIsXur/WhereIsXur/weapons.xml", System.Text.Encoding.UTF8);
+            //String[] lines = File.ReadAllLines(@"C:/travail/Xamarin/WhereIsXur/WhereIsXur/weapons.xml", System.Text.Encoding.UTF8);
 
-            StringBuilder sb = new StringBuilder();
+            //StringBuilder sb = new StringBuilder();
 
-            foreach(String line in lines)
-            {
-                //Console.WriteLine(line);
+            //foreach(String line in lines)
+            //{
+            //    //Console.WriteLine(line);
 
-                sb.Append(line);
-            }
+            //    sb.Append(line);
+            //}
 
             WeaponList list;
 
-            String result = sb.ToString();
+            //String result = sb.ToString();
 
             XmlSerializer serializer = new XmlSerializer(typeof(WeaponList));
-            using (TextReader reader = new StringReader(result))
+            using (Stream stream = File.OpenRead(@"C:/travail/Xamarin/WhereIsXur/WhereIsXur/weapons.xml"))
             {
-                var xmlSerializer = new XmlSerializer(typeof(WeaponList), new XmlRootAttribute("weapons"));
+                var xmlSerializer = new XmlSerializer(typeof(WeaponList));
 
-                    
-                list = (WeaponList)xmlSerializer.Deserialize(reader);
+
+                list = xmlSerializer.Deserialize(stream) as WeaponList;
+
             }
+
+            using (Stream s = new FileStream("lop.xml", FileMode.Create))
+            {
+                serializer.Serialize(s, list);
+            }
+            /*
+            using (Stream s = File.Create("toto.xml"))
+            {
+                serializer.Serialize(str, new WeaponList());
+            }
+            */
 
             foreach (var item in list.weapons)
             {
                 Console.WriteLine(item.Classe);
-            }
-            
-            
-
-            var json = JsonValue.Parse(result);
-            var data = json["weapons"];
-            
-            String[] res;
-            foreach (var dataItem in data)
-            {
-                string myValue = dataItem["name"]; 
-                res.Append(myValue);
-            })
-
-            
-            return null;
+           }
+           
         }
     }
 }

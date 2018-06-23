@@ -4,55 +4,71 @@ using System.Xml.Serialization;
 
 namespace WhereIsXur
 {
+    [Serializable]
     public class Weapon : IWeapon, INotifyPropertyChanged
     {
+
+        private string name;
+
         [XmlElement("name")]
         public string Name
         {
-            get { return Name; }
+            get { return name; }
             set
             {
-                Name = value;
+                name = value;
                 RaisePropertyChanged("name");
             }
         }
+
+        private String classe;
+
         [XmlElement("classe")]
         public string Classe
         {
-            get => Classe;
+            get => classe;
             set
             {
-                Classe = value;
+                classe = value;
                 RaisePropertyChanged("classe");
             }
         }
+
+        private String type;
+
         [XmlElement("type")]
         public string Type
         {
-            get => Type;
+            get => type;
             set
             {
-                Type = value;
+                type = value;
                 RaisePropertyChanged("type");
             }
         }
+
+        private String effect;
+
         [XmlElement("effect")]
         public string Effect
         {
-            get => Effect;
+            get => effect;
             set
             {
-                Effect = value;
+                effect = value;
                 RaisePropertyChanged("effect");
             }
         }
+
+        private String image;
+
         [XmlElement("image")]
         public string Image
         {
-            get => Image;
+            get => image;
             set
             {
-                Image = value;
+                image = value;
                 RaisePropertyChanged("image");
             }
         }
@@ -63,5 +79,7 @@ namespace WhereIsXur
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        public Weapon () { }
     }
 }
